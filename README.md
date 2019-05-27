@@ -7,3 +7,7 @@ Each image is 28 pixels in height and 28 pixels in width, for a total of 784 pix
 The training data set, (train.csv), has 785 columns. The first column, called "label", is the digit that was drawn by the user. The rest of the columns contain the pixel-values of the associated image.
 
 Each pixel column in the training set has a name like pixelx, where x is an integer between 0 and 783, inclusive. To locate this pixel on the image, suppose that we have decomposed x as x = i * 28 + j, where i and j are integers between 0 and 27, inclusive. Then pixelx is located on row i and column j of a 28 x 28 matrix, (indexing by zero).
+
+
+Here I have trained datas from 14000th position in the dataframe with Decision Tree Classifier using Scikit Learn
+Accuracy is 83.5904761904762%
